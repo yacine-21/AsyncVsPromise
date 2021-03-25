@@ -50,7 +50,7 @@ const add = async () => {
     const sum2 = await calculate(sum1,5,6);
     const sum3 = await calculate(sum2,7,8);
     const sum4 = await calculate(sum3,9,10);
-    return sum4
+    return sum1 + sum2 + sum3 + sum4
 }
 
 add().then((value) => {
